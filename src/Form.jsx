@@ -23,7 +23,7 @@ const Form = ({ addItem }) => {
           onChange={(event) => setNewItemName(event.target.value)}
         />
         <button type="submit" className="btn">
-          add item
+          add new task
         </button>
       </div>
     </form>
